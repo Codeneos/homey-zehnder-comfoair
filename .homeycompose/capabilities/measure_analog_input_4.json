@@ -1,0 +1,13 @@
+{
+    "type": "number",
+    "title": { "en": "Analog Input 4" },
+    "uiComponent": "sensor",
+    "getable": true,
+    "setable": false,
+    "units": { "en": "Volt" },
+    "icon": "/assets/capabilities/analog_input.svg",
+    "decimals": 1,
+    "min": 0.0,
+    "max": 10.0,
+    "insights": true
+}

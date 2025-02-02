@@ -1,0 +1,52 @@
+[
+    {
+        "type": "group",
+        "label": { "en": "Connection setails" },
+        "children": [
+            {
+                "id": "pincode",
+                "type": "password",
+                "label": { "en": "Pincode" },
+                "value": "Secret",
+                "hint": { "en": "Pincode of the device." }
+            },
+            {
+                "id": "address",
+                "type": "label",
+                "label": { "en": "IP address" },
+                "hint": { "en": "The IP address of the device." }
+            },
+            {
+                "id": "port",
+                "type": "label",
+                "label": { "en": "Port" }
+            } 
+        ]
+    },
+    {
+        "type": "group",
+        "label": { "en": "Device details" },
+        "children": [
+            {
+                "id": "serialNumber",
+                "type": "label",
+                "label": { "en": "Serial number" }
+            },
+            {
+                "id": "model",
+                "type": "label",
+                "label": { "en": "Model name" }
+            },
+            {
+                "id": "modelNumber",
+                "type": "label",
+                "label": { "en": "Model number" }
+            },
+            {
+                "id": "firmwareVersion",
+                "type": "label",
+                "label": { "en": "Firmware version" }
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "moduleResolution": "node16",
+    "allowJs": true,
+    "strict": true,
+    "outDir": ".homeybuild/",
+    "resolveJsonModule": true,
+  },
+  "include": ["app.ts", "drivers"]
+}

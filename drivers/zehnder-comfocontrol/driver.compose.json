@@ -1,0 +1,67 @@
+{
+  "name": {
+    "en": "Zehnder ComfoControl"
+  },
+  "class": "airtreatment",
+  "capabilities": [
+    "fan_mode",
+    "measure_hepa_filter",
+    "measure_power",
+    "measure_outdoor_temperature",
+    "measure_indoor_temperature",
+    "measure_outdoor_humidity",
+    "measure_indoor_humidity",
+    "measure_exhaust_fan_speed",
+    "measure_extract_fan_speed",
+    "measure_analog_input_1",
+    "measure_analog_input_2",
+    "measure_analog_input_3",
+    "measure_analog_input_4"
+  ],
+  "capabilitiesOptions": {
+    "measure_power": {
+      "approximated": true
+    },
+    "fan_mode": {
+      "values": [
+        { "id": "0", "title": { "en": "Away" } },
+        { "id": "1", "title": { "en": "Low" } },
+        { "id": "2", "title": { "en": "Medium" } },
+        { "id": "3", "title": { "en": "High" } }
+      ]
+    }
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "lan"
+  ],
+  "pair": [
+    {
+      "id": "list_devices",
+      "template": "list_devices",
+      "options": { "singular": true },
+      "navigation": { "next": "pincode" }
+    },
+    {
+      "id": "pincode",
+      "template": "pincode",
+      "options": {
+        "title": "Enter ComfoControl pincode",
+        "hint": "Enter 0000 when no pincode is set",
+        "type": "number",
+        "length": 4
+      }
+    },
+    {
+      "id": "add_devices",
+      "template": "add_devices"
+    }
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  }
+}

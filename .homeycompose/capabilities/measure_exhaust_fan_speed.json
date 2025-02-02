@@ -1,0 +1,12 @@
+{
+    "type": "number",
+    "title": { "en": "Exhaust Fan Speed" },
+    "uiComponent": "sensor",
+    "getable": true,
+    "setable": false,
+    "units": { "en": "RPM" },
+    "icon": "/assets/capabilities/fan_speed.svg",
+    "decimals": 0,
+    "min": 0,
+    "insights": true
+}

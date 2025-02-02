@@ -1,0 +1,11 @@
+{
+    "type": "enum",
+    "title": { "en": "Mode" },
+    "values": [
+        { "id": "1", "title": { "en": "Manual" } },
+        { "id": "0", "title": { "en": "Automatic" } }
+    ],
+    "getable": true,
+    "setable": true,
+    "insights": false
+}

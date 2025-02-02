@@ -1,0 +1,13 @@
+{
+    "type": "number",
+    "title": { "en": "Indoor Humidity" },
+    "uiComponent": "sensor",
+    "getable": true,
+    "setable": false,
+    "units": { "en": "%" },
+    "icon": "/assets/capabilities/measure_humidity.svg",
+    "decimals": 0,
+    "min": 0,
+    "max": 100,
+    "insights": true
+}
