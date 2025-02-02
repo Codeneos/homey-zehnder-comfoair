@@ -2,6 +2,15 @@
   "name": "com.curlybracket.zehnder.comfoair",
   "version": "0.8.0",
   "author": "Peter van Gulik <peter@curlybracket.nl>",
+  "repository": "github:Codeneos/homey-zehnder-comfoair",
+  "keywords": [
+    "homey",
+    "homey-app",
+    "zehnder",
+    "comfoair",
+    "ventilation",
+    "heat recovery"
+  ],
   "scripts": {
     "clean": "rimraf app.json dist .homeybuild",
     "watch": "tsc -p tsconfig.json --watch",
