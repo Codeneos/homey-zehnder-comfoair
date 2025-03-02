@@ -13,8 +13,10 @@
   ],
   "scripts": {
     "clean": "rimraf app.json dist .homeybuild",
+    "start": "npm run build && homey app run",
+    "deploy": "npm run build && homey app install",
     "watch": "tsc -p tsconfig.json --watch",
-    "build": "tsc -p tsconfig.json",
+    "build": "node -e \"fs.writeFileSync('app.json', '{}');\" && homey app build",
     "lint": "eslint src",
     "lint:fix": "pnpm lint --fix",
     "prettier": "pnpm prettier:check --write",

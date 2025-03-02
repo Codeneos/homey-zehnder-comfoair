@@ -25,15 +25,14 @@ Adds support for Zehnder Comfoair Mechanical Ventilation units with Heat Recover
    ```
    npm run build
    ```
-2. Deploy/run the app on your Homey device using Homey CLI:
+2. Deploy the app on your Homey device using Homey CLI:
    ```
-   homey app run
+   npm run deploy
    ```
    Alternatively, for development, you may use:
    ```
    npm start
    ```  
-   to watch for changes.
 
 The app will launch, connecting to the configured ventilation unit.
 

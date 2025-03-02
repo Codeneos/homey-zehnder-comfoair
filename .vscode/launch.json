@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch app",
+            "name": "Debug on Homey",
             "type": "node",
             "request": "launch",
             "cwd": "${workspaceFolder}",
@@ -16,7 +16,8 @@
                 "pattern": "Debugger listening on",
                 "action": "startDebugging",
                 "name": "Attach to Homey"
-            }
+            },
+            "preLaunchTask": "npm: start"
         },
         {
             "name": "Attach to Homey",
