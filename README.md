@@ -11,11 +11,11 @@ Adds support for Zehnder Comfoair Mechanical Ventilation units with Heat Recover
    ```
 3. Clone the repository:
    ```
-   git clone https://github.com/yourusername/zehnder-comfoair.git
+   git clone https://github.com/Codeneos/homey-zehnder-comfoair.git
    ```
 4. Navigate to the project directory and install dependencies:
    ```
-   cd zehnder-comfoair
+   cd homey-zehnder-comfoair
    npm install
    ```
 
