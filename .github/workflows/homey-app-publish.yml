@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      
+      - run: node -e "fs.writeFileSync('app.json', '{}');"
 
       - name: Publish Homey App
         uses: athombv/github-action-homey-app-publish@master
