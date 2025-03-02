@@ -41,6 +41,7 @@ The app will launch, connecting to the configured ventilation unit.
 
 - fan_mode: control ventilation fan speed.
 - measure_power: monitor current power consumption.
+- meter_power: track total power consumption since start (KWH).
 - measure_hepa_filter: track HEPA filter life.
 - measure_analog_input_1: read sensor analog input 1.
 - measure_analog_input_2: read sensor analog input 2.
