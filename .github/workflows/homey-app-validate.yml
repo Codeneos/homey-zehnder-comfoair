@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: node -e "fs.writeFileSync('app.json', '{}');"
-      - uses: athombv/github-action-homey-app-validate@master
-        with:
-          level: verified
+      - run: npm install -g homey
+      - run: npm install
+      - run: homey app validate --level publish
