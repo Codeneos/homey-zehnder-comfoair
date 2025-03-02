@@ -7,7 +7,9 @@
     "fan_mode",
     "measure_hepa_filter",
     "measure_power",
+    "measure_power.pre_heater",
     "meter_power",
+    "meter_power.pre_heater",
     "measure_outdoor_temperature",
     "measure_indoor_temperature",
     "measure_outdoor_humidity",
@@ -22,6 +24,13 @@
   "capabilitiesOptions": {
     "measure_power": {
       "approximated": true
+    },
+    "measure_power.pre_heater": {
+      "title": { "en": "Power Preheater" },
+      "approximated": true
+    },
+    "meter_power.pre_heater": {
+      "title": { "en": "Energy Preheater" }
     },
     "fan_mode": {
       "values": [

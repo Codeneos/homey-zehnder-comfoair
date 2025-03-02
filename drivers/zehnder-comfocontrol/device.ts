@@ -16,7 +16,9 @@ interface ComfoControlDeviceSettings {
 const capabiliesToProperty = {
     fan_mode: ComfoAirProperties.FAN_SPEED_SETTING,
     measure_power: ComfoAirProperties.CURRENT_VENTILATION_POWER_CONSUMPTION,
+    ['measure_power.pre_heater']: ComfoAirProperties.PREHEATER_CURRENT_VENTILATION_POWER_CONSUMPTION,
     meter_power: ComfoAirProperties.TOTAL_FROM_START_POWER_CONSUMPTION,
+    ['meter_power.pre_heater']: ComfoAirProperties.PREHEATER_TOTAL_FROM_START_POWER_CONSUMPTION,
     measure_hepa_filter: ComfoAirProperties.DAYS_LEFT_BEFORE_FILTER_REPLACEMENT,
     measure_analog_input_1: ComfoAirProperties.ANALOG_VOLTAGE_1,
     measure_analog_input_2: ComfoAirProperties.ANALOG_VOLTAGE_2,
